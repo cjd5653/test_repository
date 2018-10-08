@@ -7,7 +7,10 @@ using namespace std;
 
 int main()
 {
-	cout << "Goodbye World :(" << endl;	
+	cout << "Hello" << endl;
+	for (int i = 1; i <= 10; i++)
+		cout << i << " ";
+	cout << "Goodbye" << endl;
 	
 	return 0;
 }
